@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lblCredits"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:text="@string/credit"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <TextView
+        android:id="@+id/lblWinnings"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:text="@string/winnings"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/txtCredits"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:background="@color/txtBg"
+        android:gravity="center"
+        android:text="@string/Zero"
+        android:textColor="@color/txtForeground"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="19dp" />
+
+    <TextView
+        android:id="@+id/txtWinnings"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:background="@color/txtBg"
+        android:gravity="center"
+        android:text="@string/Zero"
+        android:textColor="@color/txtForeground"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="19dp" />
+
+    <ImageView
+        android:id="@+id/imgSlotThree"
+        android:layout_width="70dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/Zero"
+        app:srcCompat="@drawable/grapes"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <ImageView
+        android:id="@+id/imgSlotTwo"
+        android:layout_width="69dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/Zero"
+        app:srcCompat="@drawable/apple"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <ImageView
+        android:id="@+id/imgSlotOne"
+        android:layout_width="69dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/Zero"
+        app:srcCompat="@drawable/apple"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <Button
+        android:id="@+id/btnCollect"
+        android:layout_width="136dp"
+        android:layout_height="39dp"
+        android:onClick="collect"
+        android:text="@string/Collect"
+        tools:layout_editor_absoluteX="534dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <Button
+        android:id="@+id/btnCred"
+        android:layout_width="135dp"
+        android:layout_height="40dp"
+        android:onClick="addCredit"
+        android:text="@string/credit"
+        app:layout_constraintEnd_toEndOf="@+id/btnSpin"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnSpin"
+        tools:layout_editor_absoluteY="332dp" />
+
+    <Button
+        android:id="@+id/btnSpin"
+        android:layout_width="134dp"
+        android:layout_height="39dp"
+        android:onClick="spin"
+        android:text="@string/spin"
+        app:layout_constraintEnd_toEndOf="@+id/btnCollect"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnCollect"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

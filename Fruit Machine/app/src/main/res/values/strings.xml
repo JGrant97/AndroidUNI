@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FruitMachine</string>
+    <string name="credit">Credits</string>
+    <string name="winnings">Winnings</string>
+    <string name="Zero">0</string>
+    <string name="spin">Spin</string>
+    <string name="Collect">Collect</string>
+</resources>
