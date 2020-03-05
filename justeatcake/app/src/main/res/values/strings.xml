@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Justeatcake</string>
+    <string name="action_settings">Settings</string>
+    <string name="select_your_cake">Select your cake</string>
+    <string name="birthday_cake">Birthday cake</string>
+    <string name="valentines_day_cake">Valentines Day cake</string>
+    <string name="chocolate_cake">Chocolate cake</string>
+    <string name="same_day">Same day messenger delivery</string>
+    <string name="standard">Standard delivery</string>
+    <string name="collection">Collection</string>
+    <string name="delivery_message">How would you like your %1$s delivered?</string>
+    <string name="delivery_method">%1$s chosen</string>
+    <string name="contact">Contact</string>
+    <string name="map">Map</string>
+    <string name="delivery">Delivery</string>
+    <string name="home">Home</string>
+    <string name="favourites">Favourites</string>
+    <string name="justEatCakesLocation">geo:0,0?q=The%20Ember%20Lounge,%20College%20Road,%20Stoke-on-Trent?z=14</string>
+    <string name="chocolate_cake_desc">Chocolate cake \nThis decadent triple layered cake is filled with soft buttercream and topped with a generous dark drizzle, butter-cream and cookie shaped chocolates.</string>
+    <string name="birthday_cake_desc">Birthday cake\nA magical cake made with layers of rainbow coloured sponge, filled with butter cream. Lovingly hand finished with soft icing and rainbow coloured features</string>
+    <string name="valentines_cake_desc">Valentines Day cake\nThis delicious multi layered moist red velvet sponge is filled and finished with soft cream cheese frosting, then topped with white chocolate curls, crispy biscuit balls and red velvet crumb</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+</resources>
