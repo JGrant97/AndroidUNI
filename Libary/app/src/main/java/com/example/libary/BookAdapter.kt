@@ -30,6 +30,7 @@ class BookAdapter(private val context: MainActivity, private val books: ArrayLis
 
         holder.itemView.setOnClickListener {
             Toast.makeText(context, books.get(position).title, Toast.LENGTH_LONG).show()
+            
         }
     }
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
@@ -39,4 +40,6 @@ class BookAdapter(private val context: MainActivity, private val books: ArrayLis
         val bookSynopsis = view.txtSynopsis
         val bookCover = view.imgCoverImage
     }
+
+
 }
