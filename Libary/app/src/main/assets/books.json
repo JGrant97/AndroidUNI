@@ -1,0 +1,18 @@
+{
+  "books": [
+    {
+      "Author": "Julia Donaldson",
+      "Title": "Tabby McTat",
+      "ISBN": "1407109278",
+      "Synopsis": "Tabby McTat is a purrr-fectly happy busker's cat...",
+      "CoverImage": "tabby_mctat"
+    },
+    {
+      "Author": "Julia Donaldson",
+      "Title": "The Gruffalo",
+      "ISBN": "0230747930",
+      "Synopsis": "'A gruffalo? What's a gruffalo? He has terrible ...",
+      "CoverImage": "gruffalo"
+    }
+  ]
+}
